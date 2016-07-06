@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72506CA11D2C9951008B536A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CA01D2C9951008B536A /* main.m */; };
+		72506CA41D2C9951008B536A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CA31D2C9951008B536A /* AppDelegate.m */; };
+		72506CA71D2C9951008B536A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CA61D2C9951008B536A /* ViewController.m */; };
+		72506CAA1D2C9951008B536A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72506CA81D2C9951008B536A /* Main.storyboard */; };
+		72506CAC1D2C9951008B536A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72506CAB1D2C9951008B536A /* Assets.xcassets */; };
+		72506CAF1D2C9951008B536A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72506CAD1D2C9951008B536A /* LaunchScreen.storyboard */; };
+		72506CBA1D2C9951008B536A /* ZOEDragCellCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CB91D2C9951008B536A /* ZOEDragCellCollectionViewTests.m */; };
+		72506CC51D2C9951008B536A /* ZOEDragCellCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CC41D2C9951008B536A /* ZOEDragCellCollectionViewUITests.m */; };
+		72506CD51D2C9994008B536A /* ZOEDragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72506CD41D2C9994008B536A /* ZOEDragCellCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72506CB61D2C9951008B536A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72506C941D2C9951008B536A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72506C9B1D2C9951008B536A;
+			remoteInfo = ZOEDragCellCollectionView;
+		};
+		72506CC11D2C9951008B536A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72506C941D2C9951008B536A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72506C9B1D2C9951008B536A;
+			remoteInfo = ZOEDragCellCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72506C9C1D2C9951008B536A /* ZOEDragCellCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOEDragCellCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72506CA01D2C9951008B536A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72506CA21D2C9951008B536A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72506CA31D2C9951008B536A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72506CA51D2C9951008B536A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72506CA61D2C9951008B536A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72506CA91D2C9951008B536A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72506CAB1D2C9951008B536A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72506CAE1D2C9951008B536A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72506CB01D2C9951008B536A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72506CB51D2C9951008B536A /* ZOEDragCellCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOEDragCellCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72506CB91D2C9951008B536A /* ZOEDragCellCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOEDragCellCollectionViewTests.m; sourceTree = "<group>"; };
+		72506CBB1D2C9951008B536A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72506CC01D2C9951008B536A /* ZOEDragCellCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOEDragCellCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72506CC41D2C9951008B536A /* ZOEDragCellCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOEDragCellCollectionViewUITests.m; sourceTree = "<group>"; };
+		72506CC61D2C9951008B536A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72506CD31D2C9994008B536A /* ZOEDragCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOEDragCellCollectionView.h; sourceTree = "<group>"; };
+		72506CD41D2C9994008B536A /* ZOEDragCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOEDragCellCollectionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72506C991D2C9951008B536A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CB21D2C9951008B536A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CBD1D2C9951008B536A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72506C931D2C9951008B536A = {
+			isa = PBXGroup;
+			children = (
+				72506CD21D2C9994008B536A /* ZOEDragCellCollectionView */,
+				72506C9E1D2C9951008B536A /* ZOEDragCellCollectionView */,
+				72506CB81D2C9951008B536A /* ZOEDragCellCollectionViewTests */,
+				72506CC31D2C9951008B536A /* ZOEDragCellCollectionViewUITests */,
+				72506C9D1D2C9951008B536A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72506C9D1D2C9951008B536A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72506C9C1D2C9951008B536A /* ZOEDragCellCollectionView.app */,
+				72506CB51D2C9951008B536A /* ZOEDragCellCollectionViewTests.xctest */,
+				72506CC01D2C9951008B536A /* ZOEDragCellCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72506C9E1D2C9951008B536A /* ZOEDragCellCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				72506CA21D2C9951008B536A /* AppDelegate.h */,
+				72506CA31D2C9951008B536A /* AppDelegate.m */,
+				72506CA51D2C9951008B536A /* ViewController.h */,
+				72506CA61D2C9951008B536A /* ViewController.m */,
+				72506CA81D2C9951008B536A /* Main.storyboard */,
+				72506CAB1D2C9951008B536A /* Assets.xcassets */,
+				72506CAD1D2C9951008B536A /* LaunchScreen.storyboard */,
+				72506CB01D2C9951008B536A /* Info.plist */,
+				72506C9F1D2C9951008B536A /* Supporting Files */,
+			);
+			path = ZOEDragCellCollectionView;
+			sourceTree = "<group>";
+		};
+		72506C9F1D2C9951008B536A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72506CA01D2C9951008B536A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72506CB81D2C9951008B536A /* ZOEDragCellCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				72506CB91D2C9951008B536A /* ZOEDragCellCollectionViewTests.m */,
+				72506CBB1D2C9951008B536A /* Info.plist */,
+			);
+			path = ZOEDragCellCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		72506CC31D2C9951008B536A /* ZOEDragCellCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72506CC41D2C9951008B536A /* ZOEDragCellCollectionViewUITests.m */,
+				72506CC61D2C9951008B536A /* Info.plist */,
+			);
+			path = ZOEDragCellCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		72506CD21D2C9994008B536A /* ZOEDragCellCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				72506CD31D2C9994008B536A /* ZOEDragCellCollectionView.h */,
+				72506CD41D2C9994008B536A /* ZOEDragCellCollectionView.m */,
+			);
+			name = ZOEDragCellCollectionView;
+			path = ZOEDragCellCollectionView/ZOEDragCellCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72506C9B1D2C9951008B536A /* ZOEDragCellCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72506CC91D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionView" */;
+			buildPhases = (
+				72506C981D2C9951008B536A /* Sources */,
+				72506C991D2C9951008B536A /* Frameworks */,
+				72506C9A1D2C9951008B536A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOEDragCellCollectionView;
+			productName = ZOEDragCellCollectionView;
+			productReference = 72506C9C1D2C9951008B536A /* ZOEDragCellCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72506CB41D2C9951008B536A /* ZOEDragCellCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72506CCC1D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionViewTests" */;
+			buildPhases = (
+				72506CB11D2C9951008B536A /* Sources */,
+				72506CB21D2C9951008B536A /* Frameworks */,
+				72506CB31D2C9951008B536A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72506CB71D2C9951008B536A /* PBXTargetDependency */,
+			);
+			name = ZOEDragCellCollectionViewTests;
+			productName = ZOEDragCellCollectionViewTests;
+			productReference = 72506CB51D2C9951008B536A /* ZOEDragCellCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72506CBF1D2C9951008B536A /* ZOEDragCellCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72506CCF1D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionViewUITests" */;
+			buildPhases = (
+				72506CBC1D2C9951008B536A /* Sources */,
+				72506CBD1D2C9951008B536A /* Frameworks */,
+				72506CBE1D2C9951008B536A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72506CC21D2C9951008B536A /* PBXTargetDependency */,
+			);
+			name = ZOEDragCellCollectionViewUITests;
+			productName = ZOEDragCellCollectionViewUITests;
+			productReference = 72506CC01D2C9951008B536A /* ZOEDragCellCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72506C941D2C9951008B536A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mr.Z;
+				TargetAttributes = {
+					72506C9B1D2C9951008B536A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					72506CB41D2C9951008B536A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72506C9B1D2C9951008B536A;
+					};
+					72506CBF1D2C9951008B536A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 72506C9B1D2C9951008B536A;
+					};
+				};
+			};
+			buildConfigurationList = 72506C971D2C9951008B536A /* Build configuration list for PBXProject "ZOEDragCellCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72506C931D2C9951008B536A;
+			productRefGroup = 72506C9D1D2C9951008B536A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72506C9B1D2C9951008B536A /* ZOEDragCellCollectionView */,
+				72506CB41D2C9951008B536A /* ZOEDragCellCollectionViewTests */,
+				72506CBF1D2C9951008B536A /* ZOEDragCellCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72506C9A1D2C9951008B536A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72506CAF1D2C9951008B536A /* LaunchScreen.storyboard in Resources */,
+				72506CAC1D2C9951008B536A /* Assets.xcassets in Resources */,
+				72506CAA1D2C9951008B536A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CB31D2C9951008B536A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CBE1D2C9951008B536A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72506C981D2C9951008B536A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72506CA71D2C9951008B536A /* ViewController.m in Sources */,
+				72506CD51D2C9994008B536A /* ZOEDragCellCollectionView.m in Sources */,
+				72506CA41D2C9951008B536A /* AppDelegate.m in Sources */,
+				72506CA11D2C9951008B536A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CB11D2C9951008B536A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72506CBA1D2C9951008B536A /* ZOEDragCellCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72506CBC1D2C9951008B536A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72506CC51D2C9951008B536A /* ZOEDragCellCollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72506CB71D2C9951008B536A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72506C9B1D2C9951008B536A /* ZOEDragCellCollectionView */;
+			targetProxy = 72506CB61D2C9951008B536A /* PBXContainerItemProxy */;
+		};
+		72506CC21D2C9951008B536A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72506C9B1D2C9951008B536A /* ZOEDragCellCollectionView */;
+			targetProxy = 72506CC11D2C9951008B536A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72506CA81D2C9951008B536A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72506CA91D2C9951008B536A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72506CAD1D2C9951008B536A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72506CAE1D2C9951008B536A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72506CC71D2C9951008B536A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72506CC81D2C9951008B536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72506CCA1D2C9951008B536A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOEDragCellCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72506CCB1D2C9951008B536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOEDragCellCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72506CCD1D2C9951008B536A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOEDragCellCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOEDragCellCollectionView.app/ZOEDragCellCollectionView";
+			};
+			name = Debug;
+		};
+		72506CCE1D2C9951008B536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOEDragCellCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOEDragCellCollectionView.app/ZOEDragCellCollectionView";
+			};
+			name = Release;
+		};
+		72506CD01D2C9951008B536A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOEDragCellCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOEDragCellCollectionView;
+			};
+			name = Debug;
+		};
+		72506CD11D2C9951008B536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOEDragCellCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoe.ZOEDragCellCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOEDragCellCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72506C971D2C9951008B536A /* Build configuration list for PBXProject "ZOEDragCellCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72506CC71D2C9951008B536A /* Debug */,
+				72506CC81D2C9951008B536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72506CC91D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72506CCA1D2C9951008B536A /* Debug */,
+				72506CCB1D2C9951008B536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72506CCC1D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72506CCD1D2C9951008B536A /* Debug */,
+				72506CCE1D2C9951008B536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72506CCF1D2C9951008B536A /* Build configuration list for PBXNativeTarget "ZOEDragCellCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72506CD01D2C9951008B536A /* Debug */,
+				72506CD11D2C9951008B536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72506C941D2C9951008B536A /* Project object */;
+}
